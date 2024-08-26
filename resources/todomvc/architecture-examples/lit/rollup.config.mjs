@@ -17,7 +17,7 @@ export default {
         minifyHTML.default(),
         // Minify JS
         terser({
-            ecma: 2022,
+            // ecma: 2020,
             module: true,
             warnings: true,
         }),
